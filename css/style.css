@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+}
+input:hover{
+
+    background-color: rgb(49, 49, 49);
+    
+}
+.form-control:hover{
+color: red;
+    
+}
