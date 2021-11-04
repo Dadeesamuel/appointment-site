@@ -5,15 +5,15 @@
   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
   <link href="css/style.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.6.0.js"></script>
-  <script src="js/script.js"></script>
+  <script src="js/scripts.js"></script>
 </head>
 <body>
   <div class="container">
       
       
-<form name="group" action="reciept.html">
+<form name="group" id="group" action="reciept.html">
     <div class="data">
-    <h1> Personal Information</h1>
+    <h1 class="info"> Personal Information</h1>
 <div class="form-group">
 <label for="firstName">First Name</label>
 <input type="text" id="firstName" class="form-control" placeholder="First Name" required >
@@ -28,32 +28,49 @@
         <label for="lastName">First Name</label>
         <input type="text" id="lastName" class="form-control" placeholder="Last Name" required >
         </div>
-        <div>
+        
 
 
-            <div class="appoint">
-                <h1> appointment Information</h1>
-            <div class="form-group" style="display: flex;">
-            <label for="date"> Date</label><br>
-            <input type="date" width="50%" id="date" class="form-control" placeholder="date" required >
-            <label for="time">Time</label><br>
-            <input type="time"  width="50%" id="time" class="form-control" placeholder="time" required >
-            </div>
-            
-           
-            <div class="appoint">
-                <h1> return Information</h1>
-            <div class="form-group" style="display: flex;">
-            <label for="date"> Date</label><br>
-            <input type="date" width="50%" id="date" class="form-control" placeholder="date" required >
-            <label for="time">Time</label><br>
-            <input type="time"  width="50%" id="time" class="form-control" placeholder="time" required >
-            </div>
-            
+            <div class="return">
+                <h1 class="text-center" style="font-size: xx-large;"> DEPARTURE DATE & TIME</h1>
+            <div class="form-group" style="display: flex; width: 100%;">
+       
+            <label for="date"> Date</label>
+        <div style="width: 50%;">
+            <input type="date"  id="date" class="form-control" placeholder="date" required >
+        </div>
+
+            <label for="time">Time</label>
+        <div style="width: 50%;">
+            <input type="time"   id="time" class="form-control" placeholder="time" required >
+        </div></div>
+
+
+        <div class="return">
+            <h1 class="text-center" style="font-size: xx-large;"> RETURNING DATE & TIME</h1>
+        <div class="form-group" style="display: flex; width: 100%;">
+   
+        <label for="date"> Date</label>
+    <div style="width: 50%;">
+        <input type="date"  id="date" class="form-control" placeholder="date" required >
+    </div>
+
+        <label for="time">Time</label>
+    <div style="width: 50%;">
+        <input type="time"   id="time" class="form-control" placeholder="time" required >
+    </div></div>
+
+
+
+
+            <div class="text-center">
 <button type="submit" class="btn">submit</button>
+</div>
 
 </form>
 </div>
+  
+
 
 </body>
 </html>

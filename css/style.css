@@ -10,6 +10,23 @@ input:hover{
     
 }
 .form-control:hover{
-color: red;
-    
+color: red;   
+}
+.container{
+    background-color: chocolate;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 60%;
+    border: 2px solid black;
+    padding: 10px;
+}
+.btn{
+   border: 2px solid black;
+   margin: auto;
+}
+.info{
+    border: 2px ridge white;
+    width: 60%;
+    margin: auto;
+    text-align: center;
 }
